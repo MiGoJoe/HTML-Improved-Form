@@ -32,8 +32,10 @@
                 <div>
                     <label for="city">Your City</label>
                     <input type="text" id="city" name="city">
+                <div>
                     <label for="state">Your State</label>
                     <input list="state-list" id="state" name="state">
+                <div>   
                     <datalist id="state-list">
                         <option value="AK">Alaska</option>
                         <option value="AL">Alabama</option>
@@ -92,7 +94,7 @@
 
             <fieldset>
                 <legend>Your Preferences</legend>
-                <h3>Choose your location</h3>
+                <h3>Choose your location:</h3>
                 <div>
                     <input type="radio" id="aruba" name="location" value="Aruba" checked> 
                     <label for="aruba">Aruba</label>
@@ -110,10 +112,15 @@
                     <label for="new-zealand">New Zealand</label>
                 </div>
                 <div>
-                    <label for="color">Favorite Color</label>
+                    <p></p>
+                    <label for="color">Your Favorite Color</label>
                     <input type="color" id="color" name="color">
                 </div>
-                <h3>Please select any add-ons you'd like:</h3>
+            </fieldset>
+            
+            <fieldset> 
+            <legend>Additional Amenities</legend> 
+                <h3>Add Ons:</h3>
                 <div>
                     <input type="checkbox" id="sauna" name="extras" value="Sauna Access" checked> 
                     <label for="sauna">Sauna Access</label>
@@ -122,13 +129,12 @@
                     <input type="checkbox" id="hottub" name="extras" value="Hot Tub"> 
                     <label for="hottub">In-Room Hot Tub</label>
                 </div>
-                <div>
-                    <input type="checkbox" id="ocean" name="extras" value="Ocean View"> 
-                    <label for="ocean">Ocean View</label>
+                    <input type="checkbox" id="drinks" name="extras" value="Open Bar"> 
+                    <label for="drinks">Open Bar</label>
                 </div>
-                <div>
-                    <input type="checkbox" id="drinks" name="extras" value="Drinks Package"> 
-                    <label for="drinks">All-inclusive Drinks Package</label>
+                </div>
+                    <input type="checkbox" id="spa" name="extras" value="Spa Package"> 
+                    <label for="spa">Spa Package</label>
                 </div>
             </fieldset>
             
